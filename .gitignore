@@ -1,0 +1,9 @@
+/node_modules
+/servidor-api/node_modules
+
+/Rodei a aplicação pelo terminal o 'npm run server' deu o erro : 
+'lite-server' não é reconhecido como um comando interno ou externo.
+
+Pra corrigir é necessário fazer o comando em um terminal em modo administrador:
+
+npm install -g lite-server
