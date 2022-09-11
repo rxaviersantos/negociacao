@@ -1,4 +1,4 @@
-Esse arquivo "README.md" pode ser deletado.
+Descrição 
 
 - Uma negociação não pode ser modificada depois de criada.
 - Obrigatotiamente tem uma data, quantidade e valor.
@@ -30,6 +30,12 @@ nesta aplicação foram abordados os seguintes conceitos:
 - Questões de mutabilidade e como solucioná-la
 - O tipo Readonly
 - Adição de negociações em nossa lista
+05 
+- Nova maneira de declaração de array com generics
+- O tipo ReadonlyArray
+- O modificador readonly
+- Getters vs propriedades públicas em modo de leitura
+- Programação defensiva
 
 
 
