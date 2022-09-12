@@ -37,6 +37,14 @@ nesta aplicação foram abordados os seguintes conceitos:
 - Getters vs propriedades públicas em modo de leitura
 - Programação defensiva
 
+Typescript parte 02
+
+01
+- Inspiração no React para criação de templates declarativos e dinâmicos
+- Manipulação declarativa do DOM através de template
+- Template dinâmico
+- Formatação de datas usando Intl
+
 
 
 - Em tsconfig -> noEmitOnError: Se o arquivo de Typescript que eu estou salvando tiver um problema de copilção

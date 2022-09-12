@@ -5,6 +5,3 @@ form.addEventListener('subimit', event => {
     event.preventDefault();
     controller.adicona();
 });
-// const negociacoesView = new NegociacoesView
-// const template = negociacoesView.template();
-// console.log(template);

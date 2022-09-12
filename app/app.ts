@@ -8,7 +8,4 @@ form.addEventListener('subimit', event => {
     controller.adicona();
 });
 
-// const negociacoesView = new NegociacoesView
-// const template = negociacoesView.template();
-// console.log(template);
 
