@@ -49,6 +49,11 @@ Typescript parte 02
 - Classes com tipo genérico
 - Classes abstratas
 - O modificador protected
+03
+- Visibilidade de métodos
+- Validando negociações em dias úteis
+- Vantagens do uso de enums
+- Cuidados com enums
 
 
 

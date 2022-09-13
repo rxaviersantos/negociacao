@@ -8,12 +8,12 @@ export abstract class View<T> {
     }
 
     //Método
-    update(model: T): void {
+    public update(model: T): void {
         const template = this.template(model);
         this.elemento.innerHTML = template;
 
     }
     //Método abstract
-    abstract template(model: T): string;     
+    protected abstract template(model: T): string;     
 }
 
