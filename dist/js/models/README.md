@@ -54,6 +54,10 @@ Typescript parte 02
 - Validando negociações em dias úteis
 - Vantagens do uso de enums
 - Cuidados com enums
+04
+- Revisão da lógica de conversão negociações
+- Método estáticos
+- Parâmetros opcionais
 
 
 
