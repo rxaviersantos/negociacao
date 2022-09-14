@@ -11,7 +11,6 @@ export class Negociacao {
         const data = new Date(this._data.getTime());
         return data;
     }
-    //Método static
     static criaDe(dataString, quantidadeString, valorString) {
         const exp = /-/g;
         const date = new Date(dataString.replace(exp, ','));

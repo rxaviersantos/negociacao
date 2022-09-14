@@ -58,6 +58,11 @@ Typescript parte 02
 - Revisão da lógica de conversão negociações
 - Método estáticos
 - Parâmetros opcionais
+05
+- Remoção de comentários do código compilado
+- Ativação do strictNullChecks
+- Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
+- Benefícios do strictNullChecks no controle do fluxo da sua aplicação
 
 
 
