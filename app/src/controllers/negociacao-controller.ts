@@ -1,5 +1,4 @@
-import { logarTempoDeExecucao } from "../decorators/logar-tempo-de-execucao.js";
-import { DiaDaSemana } from "../enums/dias-da-semana.js";
+import { DiasDaSemana } from "../enums/dias-da-semana.js";
 import { Negociacao } from "../models/negociacao.js";
 import { Negociacoes } from "../models/negociacoes.js";
 import { MensagemView } from "../views/mensagem-view.js";
@@ -13,9 +12,7 @@ export class NegociacaoController {
     private negociacoes: Negociacoes = new Negociacoes();
     private negociacoesView =  new NegociacoesView('#negociacoesView', true);
     private mensagemView = new MensagemView('#mensagemView');
-    private DOMINGO = 6;
-    private SABADO = 0;
-
+   
     //Buscando elementos do DOM
     constructor(){
         this.inputData = <HTMLInputElement>document.querySelector('#data');
@@ -25,7 +22,6 @@ export class NegociacaoController {
     }
 
     //Add método
-    @logarTempoDeExecucao() 
     public adiciona(): void {
         const negociacao = Negociacao.criaDe(
             this.inputData.value,
@@ -36,12 +32,17 @@ export class NegociacaoController {
         if (!this.ehDiaUtil(negociacao.data)) {
             this.mensagemView
             .update('Apenas negociações em dias úteis são aceitas');
+            return ;
         }
+
+        this.negociacoes.adiciona(negociacao);
+        this.limparFormulario();
+        this.atualizaView();
     }
 
     private ehDiaUtil(data: Date) {
-        return data.getDay() > DiaDaSemana.DOMINGO
-             && data.getDay() < DiaDaSemana.SABADO;
+        return data.getDay() > DiasDaSemana.DOMINGO
+             && data.getDay() < DiasDaSemana.SABADO;
     }
 
     private limparFormulario(): void {
