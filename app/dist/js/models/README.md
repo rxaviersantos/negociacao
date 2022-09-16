@@ -64,6 +64,14 @@ Typescript parte 02
 - Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
 - Benefícios do strictNullChecks no controle do fluxo da sua aplicação
 
+Typescript parte 3 
+
+- Introdução e estrutura do projeto
+- Requisitos não funcionais
+- Decorator de método
+- Logar tempo de execução com decorator
+
+
 
 
 - Em tsconfig -> noEmitOnError: Se o arquivo de Typescript que eu estou salvando tiver um problema de copilção
