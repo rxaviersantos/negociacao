@@ -66,12 +66,17 @@ Typescript parte 02
 
 Typescript parte 3 
 
+01
 - Introdução e estrutura do projeto
 - Requisitos não funcionais
 - Decorator de método
 - Logar tempo de execução com decorator
-
-
+02
+- Decorator com parâmetro
+- Criação de um decorator de inspeção
+- Ordem de execução dos decorators
+- Simplicação no design de decorators
+- Portabilidade de funcionalidade antiga para decorators
 
 
 - Em tsconfig -> noEmitOnError: Se o arquivo de Typescript que eu estou salvando tiver um problema de copilção
