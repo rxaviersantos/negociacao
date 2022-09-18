@@ -79,11 +79,19 @@ Typescript parte 3
 - Portabilidade de funcionalidade antiga para decorators
 
 03 - Decorator de propriedade
+
 - Como evitar código duplicado
 - Decorator de propriedade
 - Criação dinâmica de getters
 - O uso de Object.defineProperty
 - Cache de decorators
+
+04 - API externa e interface 
+
+- API externa
+- Consumindo API externa
+- Definindo uma interface para a API
+- Isolando o acesso à API em um serviço
 
 
 - Em tsconfig -> noEmitOnError: Se o arquivo de Typescript que eu estou salvando tiver um problema de copilção
