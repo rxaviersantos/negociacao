@@ -78,6 +78,13 @@ Typescript parte 3
 - Simplicação no design de decorators
 - Portabilidade de funcionalidade antiga para decorators
 
+03 - Decorator de propriedade
+- Como evitar código duplicado
+- Decorator de propriedade
+- Criação dinâmica de getters
+- O uso de Object.defineProperty
+- Cache de decorators
+
 
 - Em tsconfig -> noEmitOnError: Se o arquivo de Typescript que eu estou salvando tiver um problema de copilção
 não irá gerar um arquivo JS para este cara, nehum arquivo js será gerado.
