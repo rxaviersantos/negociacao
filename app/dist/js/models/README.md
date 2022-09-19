@@ -79,7 +79,6 @@ Typescript parte 3
 - Portabilidade de funcionalidade antiga para decorators
 
 03 - Decorator de propriedade
-
 - Como evitar código duplicado
 - Decorator de propriedade
 - Criação dinâmica de getters
@@ -87,11 +86,18 @@ Typescript parte 3
 - Cache de decorators
 
 04 - API externa e interface 
-
 - API externa
 - Consumindo API externa
 - Definindo uma interface para a API
 - Isolando o acesso à API em um serviço
+
+05 - Interfaces
+- Chega de múltiplos console.log
+- Aplicação prática do Polimorfismo
+- Interface de método
+- Evitando importar negociações duplicadas
+- Estendendo interfaces
+- Geração de sourmaps e debug da aplicação no navegador
 
 
 - Em tsconfig -> noEmitOnError: Se o arquivo de Typescript que eu estou salvando tiver um problema de copilção
@@ -116,7 +122,10 @@ não irá gerar um arquivo JS para este cara, nehum arquivo js será gerado.
     - Uma das chegagem se omite um parametro no construtor da classe será indicado que tem um erro
     - Permite ter o auto complete mais apurado, isso significa que quando eu clico .data eu consigo ter esse auto complete das propriedades da minha classe.
 
+Debugando em Typescript 
 
+Para realizar esta ação é necessário ter o sourceMap configurado na aplicação, para isto será necessário  ir em tsconfig.json e setar esta propriiedade e coloca lá como true e salvar, logo será gerado dentro da pasta “dist > js > controllers”, um arquivo map.
+Já no navegador com o console log aberto do Chrome necessário dá “Ctrl + P” e procurar a classe que deseja debugar.
 
 
 
