@@ -90,6 +90,13 @@ em tempo real, qualquer mudança nos arquivos TS vai refletir no projeto.
 - Isolando o acesso à API em um serviço;
 - Estendendo interfaces;
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/85380530/191401288-b96492e3-735c-4665-96fa-123dea98f131.png)
+
+![image](https://user-images.githubusercontent.com/85380530/191401383-10f8a56e-def2-4026-9481-92da27972310.png)
+
+
 
 ## 🚀 Sobre mim
 Eu sou uma pessoa Analista de software.
