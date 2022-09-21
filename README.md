@@ -8,8 +8,6 @@ negociação e exibe uma lista dos dados cadastrados, escrita em HTML/CSS, Types
 
 ## Etiquetas
 
-Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
-
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 
@@ -42,13 +40,13 @@ Inicie o servidor
 
 ## Aprendizados
 
-O que você aprendeu construindo esse projeto?
+Aqui será listado conceitos utilizados neste projeto.
 
-Para rodar o servidor neste projeto é necessário seguir os seguintes passos: 
+    Para rodar o servidor neste projeto é necessário seguir os seguintes passos: 
 
-    Entrar dentro da pasta servidor-API, no terminal necessário fazer os seguintes comandos cd servidor-api/ e 
-    npm install para baixar as dependências do servidor, como é um projeto separado para rodá-lo 
-    dentro da propria pasta e no terminal utilizar o comando npm start.
+     Entrar dentro da pasta servidor-API, no terminal necessário fazer os seguintes comandos cd servidor-api/ e 
+     npm install para baixar as dependências do servidor, como é um projeto separado para rodá-lo 
+     dentro da propria pasta e no terminal utilizar o comando npm start.
 
 Fundamentos do Typescript:
 
